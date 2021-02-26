@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!--HTML version-->
+<html lang="eng">
+<!--About whole website-->
+
+<head>
+    <!--Contains info on head/website-->
+    <title>ICE y Sus Derechos</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="ICE" />
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        /* Navbar container */
+        .navbar {
+            /*overflow: hidden;*/
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgb(12, 5, 71);
+            font-family: Arial;
+        }
+
+        /* Links inside the navbar */
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown3 {
+            float: left;
+            overflow: hidden;
+        }
+
+        /* Dropdown button */
+        .dropdown3 .dropbtn3 {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            /* Important for vertical align on mobile phones */
+            margin: 0;
+            /* Important for vertical align on mobile phones */
+        }
+
+        .navbar a:hover,
+        .dropdown3:hover .dropbtn3 {
+            background-color: rgb(7, 141, 14);
+        }
+
+        /* Dropdown content (hidden by default) */
+        .dropdown-content3 {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        /* Links inside the dropdown */
+        .dropdown-content3 a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        /* Add a grey background color to dropdown links on hover */
+        .dropdown-content3 a:hover {
+            background-color: #ddd;
+        }
+
+        /* Show the dropdown menu on hover */
+        .dropdown3:hover .dropdown-content3 {
+            display: block;
+        }
+
+        body {
+            margin-left: 0px;
+        }
+
+        .hero-image {
+            margin-top: 20px;
+            margin-right: 0px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("SCW-Stop.jpg");
+            height: 530px;
+            width: 1140px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            z-index: -1;
+        }
+
+
+        /*header 2 class*/
+        h2 {
+            text-align: center;
+            font-size: 37px;
+            font-weight: lighter;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            position: relative;
+            top: 30%;
+            color: rgb(225, 225, 225);
+            font-size: 100px;
+            font-weight: lighter;
+            font-family: 'Open Sans', sans-serif;
+            margin-top: 42px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Navbar (Home Healthcare Women's)-->
+    <div class="navbar">
+        <a class="active" href="Spanish-Home.html">Inicio</a>
+
+        <div class="dropdown3">
+            <button class="dropbtn3" onclick="myFunction()">
+                La Atención Médica
+                <i class="fa fa-caret-down3"></i>
+            </button>
+            <div class="dropdown-content3" id="myDropdown1">
+                <a href="Spanish-Healthcare.html">La Atención Médica</a>
+                <a href="Spanish-Womens.html">Recursos Para Las Mujeres</a>
+            </div>
+        </div>
+
+        <!--Resources navbar-->
+        <div class="dropdown3">
+            <button class="dropbtn3" onclick="myFunction()">
+                Recursos
+                <i class="fa fa-caret-down3"></i>
+            </button>
+            <div class="dropdown-content3" id="myDropdown3">
+                <a href="#">Educación</a>
+                <a href="#">Consulta</a>
+                <a href="#">Los Números del Teléfono</a>
+                <a href="#">Agencias</a>
+                <a href="#">Palabras y Frases Comunes</a>
+            </div>
+        </div>
+
+        <!--Citizenship navbar-->
+        <div class="dropdown3">
+            <button class="dropbtn3" onclick="myFunction()">
+                Ciudadanía
+                <i class="fa fa-caret-down3"></i>
+            </button>
+            <div class="dropdown-content3" id="myDropdown2g">
+                <a href="Spanish-Naturalization.html">Naturalización</a>
+                <a href="Spanish-Benefits.html">Beneficios</a>
+                <a href="Spanish-Paths.html">Caminos a La Ciudadanía</a>
+                <a href="Spanish-Barriers.html">Las Barreras y Cómo Resolverlas</a>
+                <a href="Spanish-Voting.html">Votar</a>
+                <a href="Spanish-CalLaws.html">Las Leyes de Inmigración de California</a>
+                <a href="Spanish-ICE.html">ICE y Sus Derechos</a>
+            </div>
+        </div>
+
+        <!--About Us Navbar-->
+        <a href="about">Sobre Nosotros</a>
+        <a href="SCW-Home.html">English</a>
+
+    </div>
+
+    <div class="hero-image">
+        <h1>Las Barreras y Cómo Resolverlas</h1>
+    </div>
+
+    <h2>Sus Derechos</h2>
+    <ul>
+        <li>
+            <p>Usted y su familia tienen el derecho de guardar silencio. </p>
+        </li>
+        <li>
+            <p>Usted y su familia tienen el derecho de rehusarse a ser registrado.</p>
+        </li>
+        <ul>
+            <li>Si la policía sospecha que tiene un arma, va a registrar su ropa. </li>
+
+        </ul>
+        <li>
+            <p>No tiene que contestar las preguntas sobre su lugar de nacimiento o ciudadanía. Es mejor no decir nada.
+            </p>
+        </li>
+        <li>
+            <p>Si la policía lo detiene, usted tiene el derecho a un abogado ofrecido por el gobierno. </p>
+        </li>
+        <li>
+            <p>Si no es un ciudadano estadounidense y un agente pide que usted muestre sus documentos de inmigración,
+                usted debe mostrarlos. </p>
+        </li>
+        <li>
+            <p>Si tiene más de 18 años, usted debe llevar los documentos todo el tiempo. Si no los tiene, diga a la
+                policía que “Me gustaría consultar un abogado antes de contestar cualquier preguntas.” </p>
+        </li>
+
+    </ul>
+    <p>&nbsp;</p>
+    <h2>¿Quién está en riesgo de ser arrestado por ICE? </h2>
+    <h3><strong>El gobierno puede deportar a los inmigrantes en las siguientes categorías…</strong></h3>
+    <ul>
+        <li>Persona sin ciudadanía legal </li>
+        <li>Persona que es refugiado, titular de visa, y residente permanente</li>
+        <li>Individuos que tienen antecedentes penales </li>
+
+    </ul>
+    <p>&nbsp;</p>
+    <h3><strong>Bajo el ex-presidente Trump, ICE anunció su enfoque:</strong></h3>
+    <ul>
+        <li>
+            <p>Los casos criminales y las condenas criminales </p>
+        </li>
+        <li>
+            <p>La orden finalizada de expulsión</p>
+        </li>
+        <li>
+            <p>El fraude comprometido o tergiversación hacia el gobierno</p>
+        </li>
+        <ul>
+            <li>Personas que ICE cree que amenazan la seguridad pública o nacional </li>
+
+        </ul>
+
+    </ul>
+    <p>&nbsp;</p>
+    <h2>El Aviso</h2>
+    <h3><strong>Usted puede estar en peligro si…</strong></h3>
+    <ul>
+        <li>Ha tenido una condena hace muchos años </li>
+        <li>No ha estado en la cárcel </li>
+        <li>Un caso menor </li>
+        <li>Los problemas médicos </li>
+        <li>Dependiendo en LPR</li>
+        <li>Otros miembros de su familia son los ciudadanos estadounidenses</li>
+
+    </ul>
+    <p>&nbsp;</p>
+    <h2>Más Recursos </h2>
+    <ul>
+        <li><a href='https://www.aila.org/advo-media/tools/psas/know-your-rights-handouts-if-ice-visits'>Know your
+                Rights Handouts: If iCE Visits a Home, Employer, or Public Space</a></li>
+        <li><a href='https://www.nilc.org/get-involved/community-education-resources/know-your-rights/'>Know Your
+                Rights</a></li>
+
+    </ul>
+    <p>&nbsp;</p>
+    <h2>Lugares donde ICE arresta a la gente en…</h2>
+    <ul>
+        <li>Su casa</li>
+        <li>Su lugar de trabajo </li>
+        <li>Su juzgado</li>
+        <li>Su refugio para indigentes </li>
+        <li>Nota: ICE puede parar una persona que está conduciendo </li>
+
+    </ul>
+    <p>&nbsp;</p>
+    <h2>ICE sabe su identidad si…</h2>
+    <ul>
+        <li>Ha aplicado para la naturalización </li>
+        <li>Ha pedido un permiso de residencia</li>
+
+    </ul>
+    <p>&nbsp;</p>
+    <h2>La situación: ICE me ha parado.</h2>
+    <p>&nbsp;</p>
+    <ul>
+        <li>
+            <p>Mantenga la calma y no pelee con la policía. </p>
+        </li>
+        <li>
+            <p>No mienta y no ofrezca documentos falsos.</p>
+        </li>
+        <li>
+            <p>Prepare su familia y su caso de ser arrestado </p>
+        </li>
+        <ul>
+            <li>Recuerde su información de contacto para su familia y su abogado</li>
+
+        </ul>
+
+    </ul>
+
+</body>
+
+</html>

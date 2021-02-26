@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<!--HTML version-->
+<html lang="eng">
+<!--About whole website-->
+
+<head>
+    <!--Contains info on head/website-->
+    <title>Naturalización</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="ICE" />
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        /* Navbar container */
+        .navbar {
+            /*overflow: hidden;*/
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgb(12, 5, 71);
+            font-family: Arial;
+        }
+
+        /* Links inside the navbar */
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown3 {
+            float: left;
+            overflow: hidden;
+        }
+
+        /* Dropdown button */
+        .dropdown3 .dropbtn3 {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            /* Important for vertical align on mobile phones */
+            margin: 0;
+            /* Important for vertical align on mobile phones */
+        }
+
+        .navbar a:hover,
+        .dropdown3:hover .dropbtn3 {
+            background-color: rgb(7, 141, 14);
+        }
+
+        /* Dropdown content (hidden by default) */
+        .dropdown-content3 {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        /* Links inside the dropdown */
+        .dropdown-content3 a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        /* Add a grey background color to dropdown links on hover */
+        .dropdown-content3 a:hover {
+            background-color: #ddd;
+        }
+
+        /* Show the dropdown menu on hover */
+        .dropdown3:hover .dropdown-content3 {
+            display: block;
+        }
+
+        body {
+            margin-left: 0px;
+        }
+
+        .hero-image {
+            margin-top: 20px;
+            margin-right: 0px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("SCW-Nat.jpg");
+            height: 530px;
+            width: 1140px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            z-index: -1;
+        }
+
+
+        /*header 2 class*/
+        h2 {
+            text-align: center;
+            font-size: 37px;
+            font-weight: lighter;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            position: relative;
+            top: 30%;
+            color: rgb(225, 225, 225);
+            font-size: 100px;
+            font-weight: lighter;
+            font-family: 'Open Sans', sans-serif;
+            margin-top: 42px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Navbar (Home Healthcare Women's)-->
+    <div class="navbar">
+        <a class="active" href="Spanish-Home.html">Inicio</a>
+
+        <div class="dropdown3">
+            <button class="dropbtn3" onclick="myFunction()">
+                La Atención Médica
+                <i class="fa fa-caret-down3"></i>
+            </button>
+            <div class="dropdown-content3" id="myDropdown1">
+                <a href="Spanish-Healthcare.html">La Atención Médica</a>
+                <a href="Spanish-Womens.html">Recursos Para Las Mujeres</a>
+            </div>
+        </div>
+
+        <!--Resources navbar-->
+        <div class="dropdown3">
+            <button class="dropbtn3" onclick="myFunction()">
+                Recursos
+                <i class="fa fa-caret-down3"></i>
+            </button>
+            <div class="dropdown-content3" id="myDropdown3">
+                <a href="#">Educación</a>
+                <a href="#">Consulta</a>
+                <a href="#">Los Números del Teléfono</a>
+                <a href="#">Agencias</a>
+                <a href="#">Palabras y Frases Comunes</a>
+            </div>
+        </div>
+
+        <!--Citizenship navbar-->
+        <div class="dropdown3">
+            <button class="dropbtn3" onclick="myFunction()">
+                Ciudadanía
+                <i class="fa fa-caret-down3"></i>
+            </button>
+            <div class="dropdown-content3" id="myDropdown2g">
+                <a href="Spanish-Naturalization.html">Naturalización</a>
+                <a href="Spanish-Benefits.html">Beneficios</a>
+                <a href="Spanish-Paths.html">Caminos a La Ciudadanía</a>
+                <a href="Spanish-Barriers.html">Las Barreras y Cómo Resolverlas</a>
+                <a href="Spanish-Voting.html">Votar</a>
+                <a href="Spanish-CalLaws.html">Las Leyes de Inmigración de California</a>
+                <a href="Spanish-ICE.html">ICE y Sus Derechos</a>
+            </div>
+        </div>
+
+        <!--About Us Navbar-->
+        <a href="about">Sobre Nosotros</a>
+        <a href="SCW-Home.html">English</a>
+
+    </div>
+
+    <div class="hero-image">
+        <h1>Naturalización</h1>
+    </div>
+
+    <p>Este es el proceso de convertirse en ciudadano. Hay cinco pasos: llenar N-400 forma, tomar la huella digital,
+        entrevistarse, tomar un examen de Historia estadounidense, y decir un juramento en el juzgado. </p>
+    <h2>Camino 1: N-400 Forma </h2>
+    <p>Para la parte primera de su aplicación, llene la forma: <a
+            href='https://www.uscis.gov/sites/default/files/document/forms/n-400.pdf' target='_blank'
+            class='url'>https://www.uscis.gov/sites/default/files/document/forms/n-400.pdf</a>. En ella, escriba la
+        fecha de nacimiento, país de origen, el fondo, y su nombre legal. El costo es $595.¡No se preocupe! California
+        tiene muchas agencias que ayudarán con el costo. Visite las agencias en “Recursos” pestaña. </p>
+    <p>&nbsp;</p>
+    <h3>Requisitos antes de llenar la forma </h3>
+    <ul>
+        <li>Tener 18 años o más </li>
+        <li>Ser un residente permanente (Necesita una dirección para una casa o un apartamento y tener un permiso de
+            residencia, la que permite trabajar en Los Estados Unidos.) </li>
+        <li>Necesita haber vivido en Los Estados Unidos por cinco años y por tres meses en su estado continuamente.
+        </li>
+        <li>Por ejemplo, si ha vivido en Texas por un mes y entonces ha vivido en California por otros dos meses, no
+            puede llenar la forma porque no ha estado en el mismo estado por tres meses.</li>
+
+    </ul>
+    <p>Nota: No viaje fuera de su estado durante la naturalización. Puede dificultar su aplicación.</p>
+    <p>&nbsp;</p>
+    <h2>Camino 2: Tener la huella digital </h2>
+    <p>&nbsp;</p>
+    <ul>
+        <li>Después de llenar N-400 forma, necesita tomar la huella digital. El USCIS (U.S. servicio de migración y
+            naturalización) mandará la ubicación de donde tomará la huella digital, por el correo electrónico o por el
+            servicio portal. El costo es $85: visite “Recursos” Pestaña para las extensiones de pago. </li>
+        <li>Puede buscar la ubicación con el enlace: <a
+                href='https://www.uscis.gov/about-us/find-a-uscis-office/field-offices' target='_blank'
+                class='url'>https://www.uscis.gov/about-us/find-a-uscis-office/field-offices</a>. Desplace a la parte
+            interior de la página web y escriba su código postal. Va a ver la ubicación de los centros cercanos. </li>
+        <li>Durante el proceso: El FBI (Federal Bureau of Investigation) descargará su huella digital. Entonces, va a
+            revisar que usted no tenga antecedentes penales. Después, un oficial le dará una cita para su entrevista.
+        </li>
+
+    </ul>
+    <p>Nota: Recibirá un libro gratis para el examen, lo que involucra la gramática y la historia estadounidense. </p>
+    <p>&nbsp;</p>
+    <h2>Camino 3: Entrevista + Examen de inglés </h2>
+    <ul>
+        <li>¡Usted casi ha terminado! Durante la entrevista, un oficial preguntará sobre la información en su N-400
+            forma. El oficial le preguntará sobre su información personal, lo que incluye su lugar de nacimiento, la
+            historia familiar, etc. Necesita entender el inglés básico. ¡No se preocupe por su habilidad de hablar!
+            Visite “Recursos” pestaña para los cursos gratis del inglés. </li>
+
+    </ul>
+    <p>&nbsp;</p>
+    <p>Nota: El oficial conducirá un examen de inglés básico durante la entrevista.</p>
+    <p>&nbsp;</p>
+    <h3><em>El examen tiene tres partes:</em></h3>
+    <p>Enlace al libro que explica cada parte del examen: <a
+            href='https://www.uscis.gov/sites/default/files/document/guides/M-1122.pdf'>www.uscis.gov/sites/default/files/document/guides/M-1122.pdf</a>
+    </p>
+    <p>&nbsp;</p>
+    <p>Nota: Cuando haga clic en el enlace, usted va a ver una página blanca. Haga clic en el otro enlace para ver el
+        pdf. </p>
+    <p>&nbsp;</p>
+    <ol>
+        <li>
+            <p>La parte primera: Hablar </p>
+        </li>
+        <ol>
+            <li>El examen mostrará su habilidad para comunicarse en inglés. No se preocupe por las palabras complejas;
+                sea muy clara y conteste las preguntas.</li>
+
+        </ol>
+        <li>
+            <p>La Parte segunda: Leer </p>
+        </li>
+        <ol>
+            <li>El oficial le pedirá que lea en voz alta tres líneas. Para tener éxito, necesita pronunciar
+                correctamente al menos una línea. </li>
+            <li>Enlace al vocabulario: <a
+                    href='https://www.uscis.gov/sites/default/files/document/guides/reading_vocab.pdf' target='_blank'
+                    class='url'>https://www.uscis.gov/sites/default/files/document/guides/reading_vocab.pdf</a> </li>
+
+        </ol>
+        <li>
+            <p>La parte tercera: Escribir </p>
+        </li>
+        <ol>
+            <li>El oficial le pedirá que escriba tres líneas en inglés. Necesita conseguir al menos una respuesta
+                correcta para pasar el examen.</li>
+
+        </ol>
+
+    </ol>
+    <h2>Camino 4: El examen cívico </h2>
+    <p>De 100 preguntas, necesita contestar 10. Para pasar, necesita conseguir 6/10 preguntas correctas. </p>
+    <p>Aquí está un enlace a la guía en español para las preguntas: <a
+            href='https://www.uscis.gov/sites/default/files/document/questions-and-answers/100q_Spanish.pdf'
+            target='_blank'
+            class='url'>https://www.uscis.gov/sites/default/files/document/questions-and-answers/100q_Spanish.pdf</a>
+    </p>
+    <p>Aquí está un enlace a la guía en inglés: <a
+            href='https://www.uscis.gov/sites/default/files/document/questions-and-answers/100q.pdf' target='_blank'
+            class='url'>https://www.uscis.gov/sites/default/files/document/questions-and-answers/100q.pdf</a> </p>
+    <p>Nota: Puede comparar las respuestas en inglés y en español. Estas son las mismas, así que puede conectar las
+        palabras en español a las palabras en inglés. </p>
+    <h2>Camino 5: La ceremonia </h2>
+    <ul>
+        <li>¡Felicidades! Este es el camino final. Después de su entrevista, recibirá una fecha y una ubicación para la
+            ceremonia del juramento. También recibirá la forma N-445, la que debe llenar antes de la ceremonia. </li>
+        <li>Nota: Si no puede asistir debido a razones de salud, regrese su forma N-445 a la oficina local USCIS. Pida
+            que un oficial reprograme su ceremonia. Si usted falta a la ceremonia repetidas veces, la agencia va a
+            rechazar su aplicación. </li>
+
+    </ul>
+    <h3><em>Durante la ceremonia…</em></h3>
+    <ol>
+        <li>
+            <p>Visitar la oficina local USCIS</p>
+        </li>
+        <ol>
+            <li>Entre al edificio y facture con un oficial. Su N-4445 forma debe estar completa antes de la ceremonia.
+            </li>
+
+        </ol>
+        <li>
+            <p>Dejar la identificación para la residencia permanente </p>
+        </li>
+        <ol>
+            <li>Traiga esta identificación consigo antes de la ceremonia. Désela a un official. </li>
+
+        </ol>
+        <li>
+            <p>El juramento de lealtad</p>
+        </li>
+        <ol>
+            <li>La ceremonia va a empezar. Tendrá que decir un juramento de lealtad ante un juez estadounidense. No
+                necesita memorizar ninguna cosa; puede leer un papel. </li>
+            <li>Después, va a recibir un certificado de la naturalización. Ahora, usted es un ciudadano estadounidense.
+            </li>
+
+        </ol>
+
+    </ol>
+
+</body>
+
+</html>

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<!--HTML version-->
+<html lang="eng">
+<!--About whole website-->
+
+<head>
+  <!--Contains info on head/website-->
+  <title>ICE</title>
+  <meta charset="UTF-8" />
+  <meta name="description" content="ICE" />
+  <link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <style>
+    /* Navbar container */
+    .navbar {
+      /*overflow: hidden;*/
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgb(12, 5, 71);
+      font-family: Arial;
+    }
+
+    /* Links inside the navbar */
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .dropdown3 {
+      float: left;
+      overflow: hidden;
+    }
+
+    /* Dropdown button */
+    .dropdown3 .dropbtn3 {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      /* Important for vertical align on mobile phones */
+      margin: 0;
+      /* Important for vertical align on mobile phones */
+    }
+
+    .navbar a:hover,
+    .dropdown3:hover .dropbtn3 {
+      background-color: rgb(7, 141, 14);
+    }
+
+    /* Dropdown content (hidden by default) */
+    .dropdown-content3 {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content3 a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    /* Add a grey background color to dropdown links on hover */
+    .dropdown-content3 a:hover {
+      background-color: #ddd;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown3:hover .dropdown-content3 {
+      display: block;
+    }
+
+    body {
+      margin-left: 0px;
+    }
+
+    /*header 2 class*/
+    h2 {
+      text-align: center;
+      font-size: 37px;
+      font-weight: lighter;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 70px;
+    }
+  </style>
+</head>
+
+<body>
+  <!--Navbar (Home Healthcare Women's)-->
+  <div class="navbar">
+    <a class="active" href="SCW-Home.html">Home</a>
+
+    <div class="dropdown3">
+      <button class="dropbtn3" onclick="myFunction()">
+        Healthcare
+        <i class="fa fa-caret-down3"></i>
+      </button>
+      <div class="dropdown-content3" id="myDropdown1">
+        <a href="SCW-Healthcare.html">General Healthcare</a>
+        <a href="SCW-Womens.html">Women's Resources</a>
+      </div>
+    </div>
+
+    <!--Resources navbar-->
+    <div class="dropdown3">
+      <button class="dropbtn3" onclick="myFunction()">
+        Resources
+        <i class="fa fa-caret-down3"></i>
+      </button>
+      <div class="dropdown-content3" id="myDropdown3">
+        <a href="#">Education</a>
+        <a href="#">Consultation</a>
+        <a href="#">Phone Numbers</a>
+        <a href="#">Agencies</a>
+        <a href="#">Common Words & Phrases</a>
+      </div>
+    </div>
+
+    <!--Citizenship navbar-->
+    <div class="dropdown3">
+      <button class="dropbtn3" onclick="myFunction()">
+        Citizenship
+        <i class="fa fa-caret-down3"></i>
+      </button>
+      <div class="dropdown-content3" id="myDropdown2g">
+        <a href="SCW-Naturalization.html">Naturalization</a>
+        <a href="SCW-Benefits.html">Benefits</a>
+        <a href="SCW-PathsToCitizenship.html">Paths to Citizenship</a>
+        <a href="SCW-Barriers.html">Barriers and How to Resolve Them</a>
+        <a href="SCW-Voting.html">Voting</a>
+        <a href="SCW-CalLaws.html">California Immigration Laws</a>
+        <a href="SCW-ICE.html">ICE and Your Rights</a>
+      </div>
+    </div>
+
+    <!--About Us Navbar-->
+    <a href="about">About Us</a>
+    <a href="Spanish-Home.html">Español</a>
+
+  </div>
+
+  <!--ICE Page header-->
+  <h1 style="
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 70px;
+      ">
+    ICE & Your Rights
+  </h1>
+
+  <!--Seperating line-->
+  <hr style="
+        width: 92%;
+        text-align: center;
+        border-width: 0px;
+        height: 2px;
+        color: rgb(73, 72, 72);
+        background-color: rgb(73, 72, 72);
+      ">
+  </hr>
+
+
+  <!--Start ICE bullet points: Your Rights-->
+  <h2>
+    Your Rights
+  </h2>
+
+  <ul>
+    <li>You have the right to remain silent.</li>
+    <li>You do not have to give consent towards a search of you or your belongings.
+      Note: If police suspect a weapon they may pat down your clothing.</li>
+    <li>You do not have to answer questions about birth location, citizenship, or arrival in the country.</li>
+    <li>If arrested, you have the right to a lawyer.</li>
+    <li>If an immigration agent requests your immigration papers and you are not a U.S. citizen you must
+      show them.</li>
+    <li>If you are 18 years or older you must carry your papers at all times. If you don't have them
+      tell the officer you want to remain silent and want a lawyer.
+    </li>
+  </ul>
+
+
+  <!--ICE Bullet Points: At risk deported-->
+  <h2>
+    Who is at risk of being arrested by ICE?
+  </h2>
+
+  <p>You can be deported if:</p>
+
+  <ul>
+    <li>You are not a lawful citizen</li>
+    <li>You have been convicted of a crime or crimes</li>
+    <!--ICE people with status-->
+    <li>NOTE: part about ppl w status what does it mean</li>
+  </ul>
+
+  <p>Under the Trump Administration ICE's primary focuses are:</p>
+
+  <ul>
+    <li>Pending crimminal cases or previous convictions</li>
+    <li>Finalized orders of removal</li>
+    <li>Fraud or misrepresentation towards the government</li>
+    <li>Individuals believed to be threats to the public or national secuirty</li>
+  </ul>
+
+
+  <!--ICE Bullet Points can still be arrested-->
+  <h2>You can still be arrested if:</h2>
+
+  <ul>
+    <li>You conviction was years ago</li>
+    <li>You have never served time in jail</li>
+    <li>You were convicted of a minor crime</li>
+    <li>You have medical issues</li>
+    <li>You are on LPR</li>
+    <li>Members of your family are US citizens</li>
+  </ul>
+
+  <!--Add resources-->
+  <p>Additional resources:</p>
+  <a href="https://www.aila.org/advo-media/tools/psas/know-your-rights-handouts-if-ice-visits">
+    Know your Rights Handouts: If ICE Visits a Home, Employer, or Public Space
+  </a>
+
+
+  <!--ICE Bullet Points locations/identity-->
+  <h2>Possible ICE Arrest Locations</h2>
+
+  <ul>
+    <li>Home</li>
+    <li>Workplace</li>
+    <li>Courthouse</li>
+    <li>Homeless Shelter</li>
+    <li>Traffic Stops</li>
+  </ul>
+
+  <p>ICE knows your identity if you've sent an application to immigration or have a green card</p>
+
+  <!--ICE Bullet Points stopped by police-->
+  <h2>I've Been Stopped by the Police or ICE</h2>
+
+  <p>Stay calm and:</p>
+
+  <ul>
+    <li>Do NOT resist or block ICE agents or officers</li>
+    <li>Do NOT lie or provide false documentation</li>
+  </ul>
+
+  <p>Prepare yourself and your family in case you get arrested! Know your family and lawyer's
+    contact information and make emergency plans if you or your family take medication.
+  </p>
+
+
+
+
+  <script>
+    /* When the user clicks on the button,
+     toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (e) {
+      if (!e.target.matches(".dropbtn")) {
+        var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains("show")) {
+          myDropdown.classList.remove("show");
+        }
+      }
+    };
+
+    function myFunction2() {
+      document.getElementById("myDropdown2").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (e) {
+      if (!e.target.matches(".dropbtn2")) {
+        var myDropdown2 = document.getElementById("myDropdown2");
+        if (myDropdown2.classList.contains("show")) {
+          myDropdown2.classList.remove("show");
+        }
+      }
+    };
+
+    function myFunction3() {
+      document.getElementById("myDropdown3").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (e) {
+      if (!e.target.matches(".dropbtn3")) {
+        var myDropdown3 = document.getElementById("myDropdown3");
+        if (myDropdown3.classList.contains("show")) {
+          myDropdown3.classList.remove("show");
+        }
+      }
+    };
+  </script>
+</body>
+
+</html>
